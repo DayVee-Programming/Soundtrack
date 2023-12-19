@@ -1,0 +1,137 @@
+.call {
+  margin-bottom: 150px;
+}
+
+.call__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px 0 150px;
+}
+
+.call__left {
+  max-width: 580px;
+  width: 100%;
+  position: relative;
+}
+
+.call__left-img {
+  padding: 0 87px 0 101px;
+  border-radius: 40%;
+}
+
+.call__left-profile {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  border: 0.5px solid #3c636a;
+}
+
+.call__left-profile-img {
+  border-radius: 50%;
+  padding: 55px;
+}
+
+.call__left-video {
+  max-width: 232px;
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 8px;
+  background: #fff;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  filter: drop-shadow(0px 30px 80px rgba(47, 65, 88, 0.2));
+  border-radius: 40px;
+}
+
+.call__left-video-icon {
+  padding: 22px;
+  background: #43b671;
+  border-radius: 50%;
+}
+
+.call__left-video-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.call__left-video-desc-title {
+  font-weight: 500;
+  color: #273240;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.3px;
+}
+
+.call__left-video-desc-text {
+  color: #2c3a4b;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+}
+
+.call__right {
+  max-width: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.call__right-title {
+  color: #121212;
+  font-size: 50px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  margin-bottom: 50px;
+}
+
+.call__right-line {
+  width: 121px;
+  height: 1px;
+  background: #dedede;
+  margin-bottom: 50px;
+}
+
+.call__right-text {
+  color: #404852;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.346px;
+  margin-bottom: 30px;
+}
+
+.call__right-card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.call__right-card-img {
+  border-radius: 50%;
+}
+
+.call__right-card-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.call__right-card-desc-title {
+  font-weight: 500;
+  color: #273240;
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.3px;
+}
+
+.call__right-card-desc-text {
+  color: #2c3a4b;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+}
