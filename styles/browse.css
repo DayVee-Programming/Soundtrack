@@ -1,12 +1,12 @@
 .browse {
-  margin-bottom: 93px;
+  padding: 0 130px 93px 130px;
 }
 
 .browse__wrap {
   display: flex;
   justify-content: space-between;
+  gap: 40px 20px;
   align-items: flex-start;
-  padding: 0 130px 0 130px;
 }
 
 .browse-desc {
@@ -40,9 +40,12 @@
 }
 
 .browse__nav-card {
+  max-width: 600px;
+  width: 100%;
   border-bottom: 0.5px solid rgb(216, 216, 216, 0.4);
   display: flex;
   justify-content: space-between;
+  gap: 20px;
   align-items: flex-start;
   padding-bottom: 50px;
   cursor: pointer;
@@ -84,4 +87,43 @@
 
 .browse__nav-card-icon {
   padding-top: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+  .browse__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .browse__nav-card-content {
+    gap: 30px;
+  }
+
+  .browse {
+    padding: 0;
+  }
+
+  .browse-desc-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 480px) {
+  .browse__nav-card-content-desc-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }
