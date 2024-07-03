@@ -53,6 +53,8 @@
   padding: 22px;
   background: #43b671;
   border-radius: 50%;
+  max-width: 64px;
+  max-height: 60px;
 }
 
 .call__left-video-desc {
@@ -114,6 +116,8 @@
 
 .call__right-card-img {
   border-radius: 50%;
+  max-width: 48px;
+  max-height: 48px;
 }
 
 .call__right-card-desc {
@@ -167,10 +171,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .call__left-img {
-    max-width: 100%;
-  }
-
   .call__left-profile {
     top: -20px;
   }

@@ -47,6 +47,8 @@
 
 .chat__left-card-img {
   border-radius: 50%;
+  max-width: 48px;
+  max-height: 48px;
 }
 
 .chat__left-card-desc {
@@ -168,11 +170,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .chat__right-top-img,
-  .chat__right-bottom-img {
-    max-width: 100%;
-  }
-
   .chat__right-bottom-desc {
     max-width: 260px;
     gap: 3px;

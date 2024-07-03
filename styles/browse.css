@@ -87,6 +87,8 @@
 
 .browse__nav-card-icon {
   padding-top: 18px;
+  max-width: 27px;
+  max-height: 40px;
 }
 
 @media screen and (max-width: 1200px) {

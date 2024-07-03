@@ -43,8 +43,15 @@
   flex-wrap: wrap;
 }
 
+.connect__left-imgs-img1 {
+  max-width: 92px;
+  max-height: 102px;
+}
+
 .connect__left-imgs-img2 {
   border-radius: 0 0 50% 50%;
+  max-width: 502px;
+  max-height: 471px;
 }
 
 .connect__right {
@@ -62,6 +69,8 @@
   top: 0;
   left: 0;
   border-radius: 50% 50% 0 0;
+  max-width: 390px;
+  max-height: 390px;
 }
 
 .connect__right-img2 {
@@ -69,6 +78,8 @@
   bottom: 0;
   right: 0;
   border-radius: 0 0 50% 50%;
+  max-width: 328px;
+  max-height: 328px;
 }
 
 .connect-register {
@@ -138,10 +149,6 @@
     text-align: center;
   }
 
-  .connect__left-imgs-img2 {
-    max-width: 100%;
-  }
-
   .connect__left-imgs-img1 {
     padding-top: 20px;
   }
@@ -163,10 +170,5 @@
 
   .connect-register-desc-title {
     font-size: 15px;
-  }
-
-  .connect__right-img1,
-  .connect__right-img2 {
-    max-width: 100%;
   }
 }
