@@ -11,8 +11,7 @@
 }
 
 .call__left {
-  max-width: 580px;
-  width: 100%;
+  width: min(100%, 580px);
   position: relative;
 }
 
@@ -35,8 +34,7 @@
 }
 
 .call__left-video {
-  max-width: 232px;
-  width: 100%;
+  width: min(100%, 232px);
   display: flex;
   gap: 16px;
   align-items: center;
@@ -79,8 +77,7 @@
 }
 
 .call__right {
-  max-width: 440px;
-  width: 100%;
+  width: min(100%, 440px);
   display: flex;
   flex-direction: column;
 }

@@ -10,8 +10,7 @@
 }
 
 .browse-desc {
-  max-width: 394px;
-  width: 100%;
+  width: min(100%, 394px);
   display: flex;
   flex-direction: column;
   gap: 21px;
@@ -32,16 +31,14 @@
 }
 
 .browse__nav {
-  max-width: 600px;
-  width: 100%;
+  width: min(100%, 600px);
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
 .browse__nav-card {
-  max-width: 600px;
-  width: 100%;
+  width: min(100%, 600px);
   border-bottom: 0.5px solid rgb(216, 216, 216, 0.4);
   display: flex;
   justify-content: space-between;

@@ -5,11 +5,10 @@
 }
 
 .connect__left {
+  width: min(100%, 643px);
   display: flex;
   flex-direction: column;
   gap: 120px;
-  max-width: 643px;
-  width: 100%;
 }
 
 .connect__left-desc {
@@ -20,8 +19,7 @@
 }
 
 .connect__left-desc-title {
-  max-width: 498px;
-  width: 100%;
+  width: min(100%, 498px);
   color: #121212;
   font-size: 60px;
   line-height: 72px;
@@ -55,8 +53,7 @@
 }
 
 .connect__right {
-  max-width: 718px;
-  width: 100%;
+  width: min(100%, 718px);
   min-height: 590px;
   display: flex;
   align-items: center;
@@ -83,8 +80,7 @@
 }
 
 .connect-register {
-  max-width: 682px;
-  width: 100%;
+  width: min(100%, 682px);
   display: flex;
   justify-content: space-between;
   gap: 20px;

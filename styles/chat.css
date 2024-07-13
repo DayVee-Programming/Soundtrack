@@ -10,8 +10,7 @@
 }
 
 .chat__left {
-  max-width: 440px;
-  width: 100%;
+  width: min(100%, 440px);
   display: flex;
   flex-direction: column;
 }
@@ -73,8 +72,7 @@
 }
 
 .chat__right {
-  max-width: 696px;
-  width: 100%;
+  width: min(100%, 696px);
   display: flex;
   flex-direction: column;
 }
@@ -89,8 +87,7 @@
 }
 
 .chat__right-top-text {
-  max-width: 234px;
-  width: 100%;
+  width: min(100%, 234px);
   color: #fff;
   font-size: 14px;
   font-weight: 500;
